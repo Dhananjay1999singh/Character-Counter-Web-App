@@ -9,7 +9,7 @@ const updateCounter = () => {
 
     totalCount.innerText = userChar;
 
-    remainingCount.innerText = 150- userChar;
+    remainingCount.innerText = 450- userChar;
 };
 
 charVal.addEventListener('keyup', ()=> updateCounter());
